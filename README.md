@@ -1,16 +1,31 @@
-# React + Vite
+# Wumpus Agent 🏹
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based web application built with **Vite**[cite: 1, 2] and **Rolldown**[cite: 1] that simulates an intelligent agent navigating the classic "Hunt the Wumpus" environment.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+*   **Intelligent Agent**: Logic designed to navigate a grid and solve the Wumpus World challenge[cite: 1].
+*   **Fast Development**: Powered by **Vite** for Hot Module Replacement (HMR)[cite: 2].
+*   **Optimized Bundling**: Uses **Rolldown** for efficient build performance[cite: 1].
+*   **Code Linting**: Pre-configured with **ESLint** to maintain code quality[cite: 1, 2].
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+*   **Library**: [React](https://react.dev/)[cite: 1, 2]
+*   **Build Tool**: [Vite](https://vitejs.dev/)[cite: 1, 2]
+*   **Bundler**: [Rolldown](https://rolldown.rs/)[cite: 1]
+*   **Linting**: [ESLint](https://eslint.org/)[cite: 1, 2]
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*   `src/`: Core React components and agent algorithms[cite: 1].
+*   `public/`: Static assets and icons[cite: 1].
+*   `package.json`: Project dependencies and scripts[cite: 1].
+*   `index.html`: Entry point for the application[cite: 1, 2].
+
+## ⚙️ Installation
+
+1. **Clone the repository:**
+   
+```bash
+   git clone [https://github.com/your-username/wumpus-agent.git](https://github.com/your-username/wumpus-agent.git)
